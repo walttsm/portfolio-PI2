@@ -6,27 +6,53 @@ import HeaderStyles from "./header.module.scss"
 import logo from "../images/logo-devuni.jpg"
 
 const Header = () => (
-  <header>
-    <Link className={HeaderStyles.logo} to="/">
-      <img src={logo} alt="DevUni" />
-    </Link>
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/">Blog</Link>
-        </li>
-        <li>
-          <Link to="/">Projetos</Link>
-        </li>
-        <li>
-          <Link to="/">Tech Stack</Link>
-        </li>
-        <li>
-          <Link to="/">Quem somos</Link>
-        </li>
+  <header className={HeaderStyles.header}>
+    <div className={HeaderStyles.logoContainer}>
+      <Link to="/" className={HeaderStyles.logo}>
+        <img src={logo} alt="DevUni" />
+      </Link>
+    </div>
+    <nav className={HeaderStyles.nav}>
+      <ul className={HeaderStyles.navList}>
+        <Link
+          to="/"
+          className={HeaderStyles.navListItem}
+          activeClassName={HeaderStyles.activeNavListItem}
+        >
+          <li>Home</li>
+        </Link>
+
+        <Link
+          to="/blog"
+          className={HeaderStyles.navListItem}
+          activeClassName={HeaderStyles.activeNavListItem}
+        >
+          <li>Blog</li>
+        </Link>
+
+        <Link
+          to="/projects"
+          className={HeaderStyles.navListItem}
+          activeClassName={HeaderStyles.activeNavListItem}
+        >
+          <li>Projetos</li>
+        </Link>
+
+        <Link
+          to="/stack"
+          className={HeaderStyles.navListItem}
+          activeClassName={HeaderStyles.activeNavListItem}
+        >
+          <li>Tech Stack</li>
+        </Link>
+
+        <Link
+          to="/about"
+          className={HeaderStyles.navListItem}
+          activeClassName={HeaderStyles.activeNavListItem}
+        >
+          <li>Quem somos</li>
+        </Link>
       </ul>
     </nav>
   </header>
