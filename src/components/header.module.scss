@@ -18,8 +18,7 @@
 
 .logo {
   img {
-    margin: 0;
-    max-height: 50px;
+    max-height: 40px;
   }
 }
 
@@ -43,7 +42,7 @@
 .nav-list-item {
   padding: 1rem;
   text-decoration: none;
-  color: rgb(0, 200, 200);
+  color: #00dddd;
   height: 100%;
   li {
     margin: 0;
@@ -51,10 +50,10 @@
 }
 
 .nav-list-item:hover {
-  color: rgb(0, 255, 255);
+  color: #00ffff;
 }
 
 .active-nav-list-item {
-  color: rgb(0, 255, 255);
-  border-bottom: 1px solid rgb(0, 200, 200);
+  color: #00ffff;
+  border-top: 1px solid #00ffff;
 }

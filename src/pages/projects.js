@@ -3,10 +3,12 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import ProjectsStyles from "./projects.module.scss"
+import SEO from "../components/seo"
 
 const ProjectsPage = () => {
   return (
     <Layout>
+      <SEO title="Projetos" />
       <h1>Projetos</h1>
       <div className={ProjectsStyles.project}>
         <h2>Este blog</h2>

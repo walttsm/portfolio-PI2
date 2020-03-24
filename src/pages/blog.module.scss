@@ -1,0 +1,19 @@
+.post {
+  margin-left: 2rem;
+  padding: 3rem 1rem;
+  border-bottom: 1px solid #666666;
+  h2 {
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  p {
+    font-size: 0.9rem;
+    em {
+      color: #bbbbbb;
+    }
+  }
+}
