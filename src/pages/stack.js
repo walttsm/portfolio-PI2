@@ -7,7 +7,17 @@ const StackPage = () => {
     <Layout>
       <h1>Nossa stack</h1>
       <h2>Tecnologias:</h2>
-      <p>Em breve, listaremos as tecnologias com que trabalhamos aqui.</p>
+      <p>Nossa principal stack consiste em:</p>
+      <ol>
+        <li>NodeJS</li>
+        <li>React</li>
+      </ol>
+      <p>Mas também trabalhamos com:</p>
+      <ul>
+        <li>PHP e Laravel</li>
+        <li>Bancos de dados em mySQL</li>
+        <li>Java</li>
+      </ul>
     </Layout>
   )
 }
