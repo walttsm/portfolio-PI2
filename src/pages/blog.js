@@ -11,6 +11,7 @@ const BlogPage = () => {
       allMarkdownRemark {
         edges {
           node {
+            id
             frontmatter {
               titulo
               data
@@ -31,7 +32,9 @@ const BlogPage = () => {
           return (
             <li className={BlogStyles.post}>
               <h2>
-                <Link to="/">{post.node.frontmatter.titulo}</Link>
+                <Link to={`/blog/${post.node.id}`}>
+                  {post.node.frontmatter.titulo}
+                </Link>
               </h2>
               <div>
                 <p>

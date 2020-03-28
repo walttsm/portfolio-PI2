@@ -1,6 +1,6 @@
 ---
 titulo: "teste 2 posts"
-data: "24-03-2020"
+data: "21-03-2020"
 autor: "Walter"
 ---
 

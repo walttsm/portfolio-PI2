@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `DevUni`,
-    author: `@gatsbyjs`,
+    author: `Erick Hoga & Walter Schmidt Marinho`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -49,7 +49,7 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 590,
+              maxWidth: 900,
               linkImagesToOriginal: false,
             },
           },
