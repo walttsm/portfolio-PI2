@@ -1,0 +1,28 @@
+.container {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.imgSocial {
+  text-align: center;
+  margin-right: 2rem;
+}
+
+.img {
+  border-radius: 100%;
+}
+
+.info {
+  p {
+    text-align: justify;
+  }
+}
+
+.social {
+  display: flex;
+  a {
+    font-size: 3rem;
+    margin-right: 1rem;
+  }
+}
