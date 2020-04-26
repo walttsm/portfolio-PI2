@@ -127,24 +127,41 @@ Vamos configurá-lo rodando estes comandos no terminal:
     $ sudo ufw default deny incoming
 ```
 
-Para permitir o acesso da sua chave ssh, configure usando o seguinte comando:
+Para permitir o acesso da sua chave ssh, acessos configure usando os seguintes comandos:
 
 ```
     $ sudo ufw allow ssh
 ```
 
-Para permitir acesso ao site:
+Para permitir acesso ao site por meio de protocolo http(porta 80) e https(porta 443):
 
 ```
-    $ sudo ufw allow 80/tcp
+    $ sudo ufw allow http
+    $ sudo ufw allow https
 ```
-
-Cheque as regras que acabou de adicionar usando 'sudo ufw status'.
 
 Por fim, ative o firewall rodando:
 
 ```
     $ sudo ufw enable
+```
+
+Cheque as regras que acabou de adicionar usando 'sudo ufw status verbose'. A resposta deve ser algo como:
+
+```
+    Status: active
+    Logging: on (low)
+    Default: deny (incoming), allow (outgoing), disabled (routed)
+    New profiles: skip
+
+    To                         Action      From
+    --                         ------      ----
+    22/tcp                     ALLOW IN    Anywhere
+    80/tcp                     ALLOW IN    Anywhere
+    443/tcp                    ALLOW IN    Anywhere
+    22/tcp (v6)                ALLOW IN    Anywhere (v6)
+    80/tcp (v6)                ALLOW IN    Anywhere (v6)
+    443/tcp (v6)               ALLOW IN    Anywhere (v6)
 ```
 
 Pronto! Firewall configurado!
@@ -168,7 +185,7 @@ Uma página padrão deve aparecer para te assegurar que o server está rodando.
 
 # 8. Movendo os arquivos do site:
 
-Com os arquivos de build do seu site prontos, basta agora movê-los para a pasta /etc/www/html da sua instância.
+Com os arquivos de build do seu site prontos, basta agora movê-los para a pasta /var/www da sua instância.
 
 Para isso usamos o filezilla. Deixarei um link para o site oficial no fim do post.
 
