@@ -199,30 +199,42 @@ O site deve estar no ar!
 
 Obrigado por acompanhar e ler até aqui!, foi basicamente desta forma que criamos um máquina virtual e hospedamos nosso site para a segunda fase do projeto de PI 2! Abaixo estão os links de guias e consultas usados para esta fase!
 
-#Guias mais detalhados e referências:
+# Guias mais detalhados e referências:
 
-##**Etapas #2, 3 e 4:**
-###Criando key pairs e Security groups:
+## **Etapas #2, 3 e 4:**
+
+### Criando key pairs e Security groups:
+
 <https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html>
-###Criando instância linux:
+
+### Criando instância linux:
+
 <https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/EC2_GetStarted.html>
 
-##**Etapa #5:**
-###Acessando instâncias:
+## **Etapa #5:**
+
+### Acessando instâncias:
+
 <https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/AccessingInstances.html>
 <https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html>
 
-##**Etapa 6:**
-###Configurando o firewall da instância:
+## **Etapa 6:**
+
+### Configurando o firewall da instância:
+
 <https://www.cyberciti.biz/faq/how-to-setup-a-ufw-firewall-on-ubuntu-18-04-lts-server/>
 
-##**Etapa #7:**
-###Instalar e configurar o apache2:
+## **Etapa #7:**
+
+### Instalar e configurar o apache2:
+
 <https://ubuntu.com/server/docs>
 <https://ubuntu.com/server/docs/web-servers-apache>
 <https://httpd.apache.org/docs/2.4/bind.html>
 
-##**Etapa #8:**
-###Transferindo arquivos para a instância:
+## **Etapa #8:**
+
+### Transferindo arquivos para a instância:
+
 <https://angus.readthedocs.io/en/2014/amazon/transfer-files-between-instance.html>
 <https://filezilla-project.org/>
