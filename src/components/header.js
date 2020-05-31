@@ -23,7 +23,7 @@ const Header = () => (
         </Link>
 
         <Link
-          to="/blog"
+          to="/blog/"
           className={HeaderStyles.navListItem}
           activeClassName={HeaderStyles.activeNavListItem}
         >
@@ -31,7 +31,7 @@ const Header = () => (
         </Link>
 
         <Link
-          to="/projects"
+          to="/projects/"
           className={HeaderStyles.navListItem}
           activeClassName={HeaderStyles.activeNavListItem}
         >
@@ -39,7 +39,7 @@ const Header = () => (
         </Link>
 
         <Link
-          to="/stack"
+          to="/stack/"
           className={HeaderStyles.navListItem}
           activeClassName={HeaderStyles.activeNavListItem}
         >
@@ -47,7 +47,7 @@ const Header = () => (
         </Link>
 
         <Link
-          to="/about"
+          to="/about/"
           className={HeaderStyles.navListItem}
           activeClassName={HeaderStyles.activeNavListItem}
         >

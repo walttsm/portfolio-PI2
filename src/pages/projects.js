@@ -35,8 +35,11 @@ const ProjectsPage = () => {
         </p>
 
         <p>
-          Link para repositório:
-          <a href="https://gitlab.com/walttsm/animador-de-classificadores">
+          Link para repositório:{" "}
+          <a
+            className={ProjectsStyles.repoLink}
+            href="https://gitlab.com/walttsm/animador-de-classificadores"
+          >
             <FaGitlab />
           </a>
         </p>
@@ -112,7 +115,10 @@ const ProjectsPage = () => {
         </p>
         <p>
           Link para repositório:{" "}
-          <a href="https://github.com/walttsm/sistema-ponto-php">
+          <a
+            className={ProjectsStyles.repoLink}
+            href="https://github.com/walttsm/sistema-ponto-php"
+          >
             <FaGithub />
           </a>
         </p>
@@ -126,7 +132,10 @@ const ProjectsPage = () => {
         </p>
         <p>
           Link para repositório:{" "}
-          <a href="https://gitlab.com/npi-unifil/gerador-de-declara-es">
+          <a
+            className={ProjectsStyles.repoLink}
+            href="https://gitlab.com/npi-unifil/gerador-de-declara-es"
+          >
             <FaGitlab />
           </a>
         </p>
