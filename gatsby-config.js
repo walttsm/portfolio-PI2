@@ -35,6 +35,13 @@ module.exports = {
         icon: `src/images/logo-devuni.jpg`, // This path is relative to the root of the site.
       },
     },
+    //disqus
+    {
+        resolve: `gatsby-plugin-disqus`,
+        options: {
+        shortname: `pidevuni`
+      }
+    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {

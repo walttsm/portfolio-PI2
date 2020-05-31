@@ -4,6 +4,9 @@ import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import Styles from "./blog-post.module.scss"
 
+import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
+
+
 export const query = graphql`
   query($id: String!) {
     markdownRemark(id: { eq: $id }) {
@@ -23,6 +26,12 @@ export const query = graphql`
 `
 
 const BlogPost = props => {
+    let disqusConfig = {
+    //url: , 
+    identifier: props.data.markdownRemark.frontmatter.titulo,
+    title: props.data.markdownRemark.frontmatter.titulo,
+  }
+  
   return (
     <Layout>
       <h1>{props.data.markdownRemark.frontmatter.titulo}</h1>
@@ -37,8 +46,11 @@ const BlogPost = props => {
         className={Styles.text}
         dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
       ></div>
+      <h1>{'Comentários'}</h1>
+      <CommentCount config={disqusConfig} />
+      <Disqus config={disqusConfig} />
     </Layout>
   )
 }
-
 export default BlogPost
+

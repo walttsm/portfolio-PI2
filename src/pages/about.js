@@ -33,7 +33,7 @@ const AboutPage = () => (
       <div className={aboutStyles.info}>
           <h2>Erick Hoga</h2>
         <div className={aboutStyles.infoText}>
-          <p>Olá, tenho 22 anos atualmente estudante no instituto Unifil em ciência da computação, hoje moro em Londrina(PR) porém já morei 9 anos no Japão e tenho intenção de trabalhar/estudar lá na área de desenvolvimento de jogos.
+          <p>Olá, tenho 23 anos atualmente estudante no instituto Unifil em ciência da computação, hoje moro em Londrina(PR) porém já morei 9 anos no Japão e tenho intenção de trabalhar/estudar lá na área de desenvolvimento de jogos.
             <br></br><br></br>
             Fiz alguns cursos entre eles: <br/> <br/>
             - Técnico de informática (Senai); <br/> <br/>
@@ -68,8 +68,9 @@ const AboutPage = () => (
           <p>Olá, meu nome é Walter e vou te falar um pouco sobre mim.</p>
           <p>
             Nasci em Apucarana-PR, e atualmente moro em Londrina-PR, e estudo
-            Ciência da computação na UNIFIL. Atualmente tenho feito alguns
-            projetos em diversas linguagens, como java, python e javascript.
+            Ciência da computação na UNIFIL. Atualmente participo do Núcleo de Práticas em informática
+            , onde tenho desenvolvido alguns projetos em diversas linguagens, como java, python, 
+            PHP e javascript.
             Estou me direcionando para o estudo de React e React Native.
           </p>
           <p>Alguns de meus Hobbies são:</p>
